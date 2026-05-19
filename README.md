@@ -1,0 +1,2 @@
+# Biomass Solutions
+Shaye Wolf's [Biomass is a money pit](https://calmatters.org/commentary/2025/12/biomass-california-energy-wildfire-problems) commentary  contains a number of half-truths, biased evidence, and cherry picked science to prove the point that biomass is a money pit that won't solve California's energy or wildfire problems. This counterpoint article debunks or clarifies that misinformation with cited articles and data along with FAQs about biomass and forest health.
