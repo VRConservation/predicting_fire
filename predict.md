@@ -60,9 +60,9 @@ Mean crown fire probability showing inset closeups in the Shasta and Sierra/Neva
 Although there are areas of high probability for severe wildfire scattered throughout California, the two areas that lit up were in the Shasta and Sierra/Nevada County regions where multiple polygons of high probability conncted. This doesn't mean that wildfires will take place in these areas, but it does mean the likelihood is higher. In the Nevada County area, there have been concerted efforts to thin forest and create fuel breaks throughout the County. However, there are pockets, particularly in private land holdings where thinning has not taken place and many houses in the wildland urban interface have not created defensible space nor cleared pine leaves from roofs and yards.
 
 # Biodiversity & Old-growth
-Biodiversity not high in the high risk areas
+Biodiversity not as high as old growth but looks like there is some in lower elevation NV County
 
-For old-growth there does look like a relationship. Zonal stats or a regression to sum this and see if it is more than anecdotal.
+For old-growth there does look like more of a relationship. Zonal stats or a regression to sum this and see if it is more than anecdotal.
 
 As with climate change, misinformation about wildfire, forests, and logging has increasingly shaped public understanding and policy debates [@jones]. In California, this misinformation is often reinforced by deeply ingrained visual and cultural assumptions about what a healthy forest looks like. Many people implicitly picture dense, closed-canopy forests modeled on the eastern United States, northern Europe, or England, landscapes that evolved under very different climatic and ecological conditions. 
 
