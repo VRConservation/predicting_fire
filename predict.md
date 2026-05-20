@@ -15,30 +15,42 @@
 # keywords: forest health, climate, wildfire
 abstract: |
    Predicting wildfires is next to impossible. 
+exports: 
+  - format: docx
+    template: curvenote
+    output: exports/predict.docx 
+  - format: typst
+    template: lapreprint-typst
+    output: exports/predict.pdf     
 ---
 
 # Takeaways
-- **Fire-adapted forests** are experiencing widespread stress, mortality, and megafires as a result of a century of fire suppression. Suppression has led to excessive fuel buildup and unnaturally dense forests, with too many trees competing for limited water and nutrients.
+- **Wildfire, climate catastrophe, and Trump** together are creating a perfect storm for potential wildfires this year.
 - 
 
 # Background
+> "Wildfire season is fast approaching, and with low snowpack, dry conditions, and soaring temperatures across the U.S., experts are warning that 2026 may be one of the worst on record. Combine those extreme conditions with massive restructuring at the U.S. Forest Service (USFS), and the result is a powder keg for federal wildland firefighters." @clarke
 
+# Predictive mapping
+{numref}`perimeters` shows all wildfires since 2010.
 
+:::{figure} perims.png
+:label: perimeters
+:height: 650
+Fire perimeters since 2010 showing insets for Shasta County (above) and Sierra/Nevada Counties (below) where fewer large wildfires have occurred.
+:::
 
+Maybe also add large fires >2500 acres (just over 1000 ha) or replace this one with that?
 
+{numref}`probability` shows the mean crown fire probability REFERENCE AND CITE PYROLOGIX.
 
-## Burning & air quality
-We acknowledge that older biomass plants were dirty, but modern regulations, controls, and siting are helping to mitigate that issue. These and environmental justice impacts from siting facilities in disadvantaged communities can and should be further strengthened with strong CEQA and other environmental policies. Nevertheless, poor air quality and greenhouse gas emissions from wildfires dwarf regulated point sources. The nearly million-acre Dixie fire, California's second-largest wildfire, emitted 37 million tonnes of CO<sub>2e</sub> or the equivalent emissions from electricity consumption of nearly 5 million households [@baldassare]. In 2020, wildfires emitted 127 million tons of CO<sub>2e</sub>, nearly twice California's total greenhouse gas emissions reductions achieved since 2003 [@jerrett].
+:::{figure} prob.png
+:label: probability
+:height: 650
+Mean crown fire probability showing inset closeups in the Shasta and Sierra/Nevada County areas where high concentrations of wildfire probablity exist.
+:::
 
-Wolf suggests leaving biomass residues in the forest. Masticating on site, lopping and pilling, or removing residue to landings has long been practiced at thinning sites. But the accumulation of materials is overwhelming. A study showed that there are approximately 150,000 acres of piles representing 1,000,000 tons, with 78% of these materials on public lands [@darlington-pile].[^2] Even disposing of those piles by burning is an episodic, unregulated process that would be much more harmful than utilization in long-term wood products or burning at a facility.
-
-[^2]: Only 19% of this material is accessible via existing road networks.
-
-idize supply, biomass is a waste product. When we subsidize demand, biomass is a value proposition. (Clarke Stevenson, personal communication, 2026)
-
-Large-scale forest treatments inevitably generate substantial volumes of woody material. From an economic standpoint, this material is not optional; it is an unavoidable byproduct of necessary restoration. If it is left in place, piled, or masticated, wildfire risk is often shifted rather than reduced, and carbon is released through decay or open burning without benefit. That biomass must go somewhere. Deliberate utilization converts an unavoidable cost into a managed material flow that supports risk reduction rather than undermining it. 
-
-Another longer-term economic value is often undercounted: carbon storage and avoided emissions. Using forest biomass in longer-lived products such as mass timber, engineered wood, or biochar effectively sequesters carbon that would otherwise be released through wildfire or decomposition, while simultaneously displacing more emissions-intensive materials. Modeling studies show that treated forest scenarios can result in greater total carbon storage over time despite substantially lower tree densities, due to reduced wildfire emissions and increased growth of large trees [@elias; @delyser]. 
+# Biodiversity & Old-growth
 
 # Wildfire disinformation
 As with climate change, misinformation about wildfire, forests, and logging has increasingly shaped public understanding and policy debates [@jones]. In California, this misinformation is often reinforced by deeply ingrained visual and cultural assumptions about what a healthy forest looks like. Many people implicitly picture dense, closed-canopy forests modeled on the eastern United States, northern Europe, or England, landscapes that evolved under very different climatic and ecological conditions. 
@@ -50,8 +62,7 @@ These misconceptions shape how wildfire risk is interpreted and how solutions ar
 Wildfire disinformation matters not only because it is inaccurate and undermines accepted science, but because it drives policy choices that fail to address the underlying causes of high-severity fire in a fire-adapted landscape [@cook]. 
 
 ## Fire-adapted forests & cultural fire
-A growing body of ecological research, supported by historical records and Indigenous knowledge, makes clear that most of California’s landscapes burned regularly prior to Euro-American settlement. From the coast to the Sierra Nevada and beyond, fire occurred on highly variable but frequent cycles, often on the order of five to fifteen years, depending on vegetation type, elevation, and local climate. Fire was not an anomaly in these systems; it was essential to their function ({numref}`figure`). 
-
+A growing body of ecological research, supported by historical records and Indigenous knowledge, makes clear that most of California’s landscapes burned regularly prior to Euro-American settlement. From the coast to the Sierra Nevada and beyond, fire occurred on highly variable but frequent cycles, often on the order of five to fifteen years, depending on vegetation type, elevation, and local climate. Fire was not an anomaly in these systems; it was essential to their function. 
 
 Indigenous peoples actively shaped these fire regimes through intentional burning, now commonly referred to as cultural burning. These practices did not simply mimic lightning ignitions but actively guided fire to support food systems, medicinal plants, wildlife habitat, travel corridors, and sacred landscapes. Cultural burning worked in concert with natural fire to sustain open, patchy forests, interspersed meadows, and diverse age structures, supporting high levels of biodiversity and resilience. 
 
@@ -68,7 +79,7 @@ Restoring fire-adapted landscapes, therefore, requires reintroducing fire as a m
 
 
 # Solutions
-Returning to the mantra burn, bury, build, we recommend that all biomass utilization solutions incorporate the highest and best uses of forest product pathways ({numref}`fullcircle`). Moving forward, several integrated pathways can support forest health and biomass utilization:
+Returning to the mantra burn, bury, build, we recommend that all biomass utilization solutions incorporate the highest and best uses of forest product pathways. Moving forward, several integrated pathways can support forest health and biomass utilization:
 
 1. **Climate adaptation and biomass integration**. Rapid scaling of forest health treatments, including thinning and prescribed fire, is critical to maintaining forest resilience in a warming climate [@delyser]. Policies that align forest treatments, biomass utilization, climate goals, and greenhouse gas reduction can reduce wildfire risk while ensuring that utilization infrastructure supports, rather than distorts, restoration outcomes. 
 
