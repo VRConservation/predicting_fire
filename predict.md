@@ -22,7 +22,7 @@ exports:
 ---
 
 
-## Take yo mamma home
+## Take-aways
 - **Enabling condition**. Climate, wildfire, and forest service restructuring are combining to make 2026 a potentially bad year for wildfires.
 - **Pockets of infrequently burned and high crown fire probability** may point to where especially damaging fires may occur.
 - **Continuing to increase the pace and scale of forest health restoration** will increase forest resilience and resistance to disturbance, especially wildfire.
@@ -62,7 +62,7 @@ Although there are areas of high probability for severe wildfire scattered throu
 # Biodiversity & Old-growth
 Biodiversity not high in the high risk areas
 
-For old-growth there does look like a relationship. Do a regression or zonal states then make a graph?
+For old-growth there does look like a relationship. Zonal stats or a regression to sum this and see if it is more than anecdotal.
 
 As with climate change, misinformation about wildfire, forests, and logging has increasingly shaped public understanding and policy debates [@jones]. In California, this misinformation is often reinforced by deeply ingrained visual and cultural assumptions about what a healthy forest looks like. Many people implicitly picture dense, closed-canopy forests modeled on the eastern United States, northern Europe, or England, landscapes that evolved under very different climatic and ecological conditions. 
 
