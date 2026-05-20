@@ -14,7 +14,7 @@
 # license: CC-BY-4.0
 # keywords: forest health, climate, wildfire
 abstract: |
-   Predicting wildfires is next to impossible. 
+   Predicting where wildfires might occur is next to impossible due to multiple factors of weather, biotic, and abiotic conditions on the ground. We're going to do it anyway or at least examine what places might be vulnerable during 2026. We'll examine fire history and the chance of severe fires through fire perimeters since 2010 and the probability of crown fire. Surprisingly there are some places in the Sierra-Cascade region of California that may be more vulnerable than others.
 exports: 
   - format: docx
     template: curvenote
@@ -31,24 +31,31 @@ exports:
 # Background
 > "Wildfire season is fast approaching, and with low snowpack, dry conditions, and soaring temperatures across the U.S., experts are warning that 2026 may be one of the worst on record. Combine those extreme conditions with massive restructuring at the U.S. Forest Service (USFS), and the result is a powder keg for federal wildland firefighters." @clarke
 
+The 2026 wildfire season is shaping up to be one of the most severe in recent U.S. history, driven by a convergence of extreme climatic and institutional factors. A record-low snowpack across the West — California's measuring just 14–18% of average — combined with early-season heat and drought across 61% of the continental U.S. has created abundant, desiccated fuels primed to burn [@becker2026; @spanger]. Already through April, over 1.8 million acres have burned (194% above the 10-year average), and AccuWeather projects 5.5 to 8 million acres could burn by year's end [@clarke; @lada2026]. 
+
+Compounding the environmental conditions, the U.S. Forest Service lost 16% of its workforce in 2025 and is undergoing a major restructuring that critics warn erodes firefighting support capacity [@simlot2026; @clarke]. Meanwhile, the newly formed U.S. Wildland Fire Service is racing to bring on aircraft and crews early, though experts caution that the administration's focus on suppression over prevention may leave the country underprepared [@larson2026]. Together, these factors point to a "fire year" rather than a seasonal threat, demanding urgent policy and operational responses [@kpbs2026].
+
+But then again every year seems to get a dire wildfire prediction. Is this media hype, climate reality, or does the data help sort out science from fiction? Let's take a closer look.
+
 # Predictive mapping
-{numref}`perimeters` shows all wildfires since 2010.
+Generally, examining wildfire probability or history datasets of California, it can be hard to decipher the dominant oranges or reds from anything else. {numref}`perimeters` shows all wildfires greater than 5,000 acres (2,023 hectares) since 2010 [@frap]. Again, the map mostly looks orange, but if we zoom into key areas where forest occur, there are some spot where there haven't been large fires since 2010 such as northwestern Shasta County or Nevada and Sierra Counties.
 
 :::{figure} perims.png
 :label: perimeters
 :height: 650
-Fire perimeters since 2010 showing insets for Shasta County (above) and Sierra/Nevada Counties (below) where fewer large wildfires have occurred.
+Fire perimeters >5,000 acres since 2010 showing insets for Shasta County (above) and Sierra/Nevada Counties (below) where fewer large wildfires have occurred [@frap; @evt].
 :::
 
-Maybe also add large fires >2500 acres (just over 1000 ha) or replace this one with that?
 
-{numref}`probability` shows the mean crown fire probability REFERENCE AND CITE PYROLOGIX.
+We then looked at the probability of fires occurring in these areas. {numref}`probability` shows the mean crown fire probability [@pyrologix]. The values represent the likelihood of experiencing group torching (mid- to high-grade passive crown fire) or sustained canopy spread or active crown fire if a wildfire occurs. The data was joined to transverse hexagons 4,000 hectares (9,884 acres) in size and calculating the mean probability within each hexagon.
 
 :::{figure} prob.png
 :label: probability
 :height: 650
-Mean crown fire probability showing inset closeups in the Shasta and Sierra/Nevada County areas where high concentrations of wildfire probablity exist.
+Mean crown fire probability showing inset closeups in the Shasta and Sierra/Nevada County areas where high concentrations of wildfire probablity exist [@pyrologix].
 :::
+
+Although there are areas of high probability for severe wildfire scattered throughout California, the two areas that lit up were in the Shasta and Sierra/Nevada County regions where multiple polygons of high probability conncted. This doesn't mean that wildfires will take place in these areas, but it does mean the likelihood is higher. In the Nevada County area, there have been concerted efforts to thin forest and create fuel breaks throughout the County. However, there are pockets, particularly in private land holdings where thinning has not taken place and many houses in the wildland urban interface have not created defensible space nor cleared pine leaves from roofs and yards.
 
 # Biodiversity & Old-growth
 
@@ -59,34 +66,11 @@ California’s forests exist largely within a Mediterranean climate, characteriz
 
 These misconceptions shape how wildfire risk is interpreted and how solutions are evaluated. Simplified narratives, such as the claim that destructive fires are primarily a shrubland phenomenon, further obscure the reality that California’s most damaging fires occur across mixed landscapes that include forests, shrublands, and the wildland–urban interface. When wildfire ecology is misunderstood in this way, forest management and biomass utilization are often framed as unnecessary or harmful rather than as responses to a misaligned, historically altered system. 
 
-Wildfire disinformation matters not only because it is inaccurate and undermines accepted science, but because it drives policy choices that fail to address the underlying causes of high-severity fire in a fire-adapted landscape [@cook]. 
-
-## Fire-adapted forests & cultural fire
-A growing body of ecological research, supported by historical records and Indigenous knowledge, makes clear that most of California’s landscapes burned regularly prior to Euro-American settlement. From the coast to the Sierra Nevada and beyond, fire occurred on highly variable but frequent cycles, often on the order of five to fifteen years, depending on vegetation type, elevation, and local climate. Fire was not an anomaly in these systems; it was essential to their function. 
-
-Indigenous peoples actively shaped these fire regimes through intentional burning, now commonly referred to as cultural burning. These practices did not simply mimic lightning ignitions but actively guided fire to support food systems, medicinal plants, wildlife habitat, travel corridors, and sacred landscapes. Cultural burning worked in concert with natural fire to sustain open, patchy forests, interspersed meadows, and diverse age structures, supporting high levels of biodiversity and resilience. 
-
-Decades of fire science align closely with this knowledge. Prior to widespread fire suppression, western forests tended to have larger trees, lower overall density, and greater structural heterogeneity [@north220; @stephens]. The removal of frequent, low- to moderate-severity fire disrupted these systems, allowing fuels to accumulate and forest structure to shift far beyond historical and ecological norms. 
-
-## Fire suppression
-The transition from frequent, smaller fires to the large, high-severity wildfires of today is not a natural evolution but the result of more than a century of fire suppression [@collins; @peery]. Historically, regular fire functioned as an active form of landscape management. It improved tree health by reducing competition, clearing understory fuels, removing dead or weakened vegetation, and opening the forest canopy to sunlight. These processes reduced water stress, improved nutrient cycling, and supported the development of meadows and open patches that acted as natural fire breaks. 
-
-Frequent fire also interacts with hydrology. By reducing excessive tree density, fire helped balance water demand with available moisture, supporting smaller, localized water cycles and maintaining soil and vegetation health. In these landscapes, most fires burned at lower intensity and often self-extinguished as they encountered patchy fuels and open areas. Large, stand-replacing fires were relatively rare. 
-
-Fire suppression reversed these dynamics. Forests became denser and more uniform, fuels accumulated continuously across large areas, and the patchiness that once limited fire spread was lost. Under modern climate conditions, this produced fires that burn hotter, spread farther, and cause far greater ecological and social damage than the frequent fires they replaced. 
-
-Restoring fire-adapted landscapes, therefore, requires reintroducing fire as a management tool, alongside thinning and other treatments that help re-establish appropriate structure. In the near term, this process generates large volumes of forest residuals. Biomass utilization does not drive this work; rather, it emerges from it as a practical necessity. Over time, as landscapes regain balance and fire resumes its ecological role, the need for intensive intervention and large-scale biomass handling can and should decline. 
-
-
 # Solutions
 Returning to the mantra burn, bury, build, we recommend that all biomass utilization solutions incorporate the highest and best uses of forest product pathways. Moving forward, several integrated pathways can support forest health and biomass utilization:
 
-1. **Climate adaptation and biomass integration**. Rapid scaling of forest health treatments, including thinning and prescribed fire, is critical to maintaining forest resilience in a warming climate [@delyser]. Policies that align forest treatments, biomass utilization, climate goals, and greenhouse gas reduction can reduce wildfire risk while ensuring that utilization infrastructure supports, rather than distorts, restoration outcomes. 
-
-
+1. **Treat more forested acres**. Through thinning and prescribed projects. California has been ramping up acres treated for some time now, but the pace and scale still needs to be accelerated. An element that is currently missing is infrastructure to treat biomass responsibly and sustainably.
+2. **Climate adaptation and biomass integration**. Rapid scaling of forest health treatments, including thinning and prescribed fire, is critical to maintaining forest resilience in a warming climate [@delyser]. Policies that align forest treatments, biomass utilization, climate goals, and greenhouse gas reduction can reduce wildfire risk while ensuring that utilization infrastructure supports, rather than distorts, restoration outcomes [@biomass]. 
+3. **Biomass aggregation**. A major hurdle for treating more forest acres is long-term feedstock supply agreements. Creating joint powers authoritiies to manage agreements between public landowners and wood product businesses, could greatly increase forest acres treated, but also utilize the wood in a manner that sequesters carbon and increases biodiversity [@jpa].
 
 # Conclusion 
-Taken together, these pathways point toward a future in which California’s forests are once again shaped by frequent, beneficial fire rather than catastrophic megafires. Biomass utilization plays a supporting role in this transition, helping to manage the legacy of fire suppression while landscapes are brought back into balance. The long-term goal is not perpetual intervention, but the restoration of living systems capable of sustaining themselves through wise, adaptive stewardship. 
-
-
-
