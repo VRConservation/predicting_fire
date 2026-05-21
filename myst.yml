@@ -3,7 +3,7 @@ version: 1
 project:
   id: f6caea8a-bf51-4bc6-a5d4-4bc470673414
   title: Predicting 2026 Wildfires 🔥🌲
-  subtitle: Interrogating fire history and probability to predict upcomding fires
+  subtitle: Interrogating fire history and probability to predict upcoming fires
   subject: wildfire
   keywords: forest health, climate, predict, utilization
   license:

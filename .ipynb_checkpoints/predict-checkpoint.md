@@ -1,7 +1,7 @@
 ---
 title: Predicting 2026 Wildfires
 abstract: |
-  Modelling where wildfires might occur is next to impossible due to multiple weather, biotic, and abiotic factors on the ground. We're going to do it anyway, or at least examine what places might be vulnerable during 2026. We examine fire history and the likelihood of severe fires using fire perimeters since 2010, as well as the probability of crown fire. Surprisingly, some places in the Sierra-Cascade region of California may be more vulnerable than others. In addition, we conduct a simple analysis examining potential crown fire impacts on old-growth forest stands and threatened species richness.
+  Predicting where wildfires might occur is next to impossible due to multiple weather, biotic, and abiotic factors on the ground. We're going to do it anyway, or at least examine what places might be vulnerable during 2026. We'll examine fire history and the likelihood of severe fires using fire perimeters since 2010, as well as the probability of crown fire. Surprisingly, some places in the Sierra-Cascade region of California may be more vulnerable than others.
 ---
 
 # Take-aways
@@ -36,10 +36,11 @@ We then looked at the probability of fires occurring in these areas. {numref}`pr
 :height: 650
 Mean crown fire probability showing inset closeups in the Shasta and Sierra/Nevada County areas where high concentrations of wildfire probability exist [@pyrologix]. Map by 3point.xyz.
 :::
+:::
 
 Although there are areas of high probability for severe wildfire scattered throughout California, the two areas that lit up were in the Shasta and Sierra/Nevada County regions, where multiple high-probability polygons connected. This doesn't mean wildfires will occur in these areas, but it does mean the likelihood is higher. In Nevada County, there have been concerted efforts to thin the forest and create fuel breaks throughout the County. However, there are pockets, particularly in private landholdings where thinning has not taken place, and many houses in the wildland-urban interface have neither created defensible space nor cleared pine needles from roofs and yards.
 
-# Biodiversity & Old-growth forest
+# Biodiversity & Old-growth
 When we examine old-growth and species diversity in relation to fire, it appears at first glance that older forest stands and species richness could be at high risk in high-probability fire areas.
 
 # Solutions
