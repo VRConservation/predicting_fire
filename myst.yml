@@ -5,7 +5,7 @@ project:
   title: Predicting 2026 Wildfires 🔥🌲
   subtitle: Interrogating fire history and probability to predict upcomding fires
   subject: wildfire
-  keywords: forest health, climate, predict utilization
+  keywords: forest health, climate, predict, utilization
   license:
     content: CC-BY-SA-3.0
     code: MIT

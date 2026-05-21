@@ -1,7 +1,7 @@
 ---
-# title: Forest Biomass Solutions
+# title: Predicting 2026 Wildfires
 # subject: Wildfire
-# short_title: Biomass & forests
+# short_title: Interrogating fire history and probability to predict upcomding fires
 # date: 2026-01-20
 # authors:
 #   - name: Vance Russell
@@ -9,7 +9,7 @@
 #       - 3point.xyz
 #     email: vance@3point.xyz
 # license: CC-BY-4.0
-# keywords: forest health, climate, wildfire
+# keywords: forest health, climate, predict, utilization
 abstract: |
    Predicting where wildfires might occur is next to impossible due to multiple factors of weather, biotic, and abiotic conditions on the ground. We're going to do it anyway or at least examine what places might be vulnerable during 2026. We'll examine fire history and the chance of severe fires through fire perimeters since 2010 and the probability of crown fire. Surprisingly there are some places in the Sierra-Cascade region of California that may be more vulnerable than others.
 exports: 
